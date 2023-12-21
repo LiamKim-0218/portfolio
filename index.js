@@ -33,7 +33,7 @@ const projectArr = {
     if (projectLink) {
       const linkElement = document.createElement("a");
       linkElement.href = projectLink;
-      linkElement.textContent = "상세보기";
+      linkElement.textContent = "문서보기";
       detailsElement.appendChild(document.createElement("br")); // Add line break
       detailsElement.appendChild(linkElement);
     }
